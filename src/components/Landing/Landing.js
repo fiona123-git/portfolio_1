@@ -18,7 +18,7 @@ const Landing = (props) => (
         </SectionTitle>
         
         <SectionText>
-      I am a Fullstack  Web Developer and I have passion for coding
+      I am a Fullstack  Web Developer and I have a passion for coding
         </SectionText>
         
           <Button onClick={props.handleClick}><Link href="#projects">Learn more</Link></Button>
