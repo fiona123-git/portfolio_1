@@ -14,9 +14,8 @@ export default function App({ Component, pageProps }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-VMP80WQKMB', {
-              page_path: window.location.pathname,
-            });
+            gtag('config', 'G-VMP80WQKMB', 
+            );
                 `}
       </Script>
     
