@@ -13,7 +13,7 @@ export const projects = [
     title: 'Itunes Music clone',
     description:"Itunes clone created using the MERN Stack",
     image: '/images/Screenshot (133).png',
-    tags: ['React', 'JavaScript', 'Express', 'React', 'Node'],
+    tags: ['React', 'JavaScript', 'Express',  'Node'],
     source: 'https://github.com/fiona123-git/itunes',
     visit: 'https://itunes-react.herokuapp.com/',
     id: 1,
