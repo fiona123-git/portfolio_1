@@ -6,7 +6,7 @@ export const projects = [
       image: '/images/Screenshot (27).png',
       tags: ['Javascript', 'HTML', 'CSS', 'Bootstrap'],
     source: 'https://github.com/fiona123-git/Final-Capstone',
-    visit: 'https://google.com',
+    visit: '',
     id: 0,
   },
   {
@@ -15,7 +15,7 @@ export const projects = [
     image: '/images/Screenshot (133).png',
     tags: ['React', 'JavaScript', 'Express', 'React', 'Node'],
     source: 'https://github.com/fiona123-git/itunes',
-    visit: 'www.google.com',
+    visit: 'https://itunes-react.herokuapp.com/',
     id: 1,
   },
   {
