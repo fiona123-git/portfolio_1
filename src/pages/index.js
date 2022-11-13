@@ -26,5 +26,3 @@ const Home = () => {
 
 export default Home;
 
-// reference : https://www.freecodecamp.org/how-to-build-a-portfolio-site-with-nextjs-tailwind/amp/
-

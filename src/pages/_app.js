@@ -6,7 +6,7 @@ export default function App({ Component, pageProps }) {
     <>
     <Script
         strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id='${process.env.GOOGLE_ANALYTICS}`}
+        src={`https://www.googletagmanager.com/gtag/js?id='id=G-VMP80WQKMB`}
       />
 
       <Script strategy="lazyOnload">
@@ -14,10 +14,11 @@ export default function App({ Component, pageProps }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${process.env.GOOGLE_ANALYTICS}', 
+            gtag('config', 'id=G-VMP80WQKMB', 
             );
                 `}
       </Script>
+      
     
       <Theme>
         <Component {...pageProps} />
